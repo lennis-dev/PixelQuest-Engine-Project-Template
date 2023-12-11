@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel=stylesheet href="./index.css">
+    <link rel=stylesheet href="./PixelQuest-Engine/css/style.css">
+    <link id="favicon" rel="shortcut icon" type="image/png" href="" />
+</head>
+
+<body>
+    <div class="splash-screen">
+        <div class="splash-box">
+            <div class="splash-screen-logo">
+                <img src="https://www.lennis.dev/static/img/svgs/lennis.dev.svg" alt="">
+            </div>
+            <div class="splash-screen-bar-progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+    <div id="game-container">
+        <div id="game-canvas"></div>
+        <div class="game-gui">
+        </div>
+        <div class="game-pause-menu">
+            <div>
+                <h1>
+                    == Pause Menu ==
+                </h1>
+                <div class="btn" tabindex=1 id="continue">Continue</div>
+                <div class="btn" tabindex="2">Save & Quit</div>
+            </div>
+        </div>
+        <div class="game-main-menu">
+        </div>
+    </div>
+</body>
+<script src="./PixelQuest-Engine/mjs/index.mjs" type="module"></script>
+
+</html>
