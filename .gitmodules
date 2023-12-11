@@ -1,0 +1,3 @@
+[submodule "PixelQuest-Engine"]
+	path = PixelQuest-Engine
+	url = https://github.com/lennis-dev/PixelQuest-Engine.git
